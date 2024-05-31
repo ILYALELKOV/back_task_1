@@ -43,6 +43,7 @@ async function removeNote(id) {
 
   await saveNotes(filteredNotes)
 
+
   console.log(chalk.bgRed(`Note ${id} was removed!`))
 }
 
